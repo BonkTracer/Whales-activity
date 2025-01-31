@@ -1,129 +1,135 @@
-Chronos AI - Solana Whale & Anomaly Tracker
+# 🌐 Chronos AI - Solana Whale & Anomaly Tracker
 
-Chronos AI is an advanced monitoring system designed to track whale activity and detect transaction anomalies in the Solana blockchain. It leverages AI models to analyze patterns and provide real-time insights into blockchain transactions.
+Chronos AI is an advanced monitoring system designed to track whale activity 🐋 and detect transaction anomalies ⚠️ in the Solana blockchain. It leverages AI models 🤖 to analyze patterns and provide real-time insights into blockchain transactions.
 
-🚀 Features
+---
 
-Real-time Solana Transaction Monitoring
+## 🚀 Features
 
-Whale Detection (Identifies large transactions over 50,000 SOL)
+✅ **Real-time Solana Transaction Monitoring** 📡
+✅ **Whale Detection** 🐳 (Identifies large transactions over 50,000 SOL)
+✅ **AI-powered Anomaly Detection** 🔍 (Flags suspicious transactions)
+✅ **Interactive Dashboard** 📊 (Next.js frontend)
+✅ **Fast API Response** ⚡ (Node.js & Express backend)
+✅ **Database Integration** 🗄️ (SQLite for storing transaction history)
 
-AI-powered Anomaly Detection (Flags suspicious transactions)
+---
 
-Interactive Dashboard (Next.js frontend)
+## 📂 Folder Structure
 
-Fast API Response (Node.js & Express backend)
-
-Database Integration (SQLite for storing transaction history)
-
-📂 Folder Structure
-
+```
 chronos-ai/
-│── backend/                # Express.js API Server
+│── backend/        # Express.js API Server
 │   ├── controllers/
 │   ├── routes/
 │   ├── services/
 │   ├── models/
 │   ├── server.js
 │   ├── package.json
-│── frontend/               # Next.js (React + TypeScript)
+│
+│── frontend/       # Next.js (React + TypeScript)
 │   ├── components/
 │   ├── pages/
 │   ├── styles/
 │   ├── public/
 │   ├── next.config.js
 │   ├── package.json
-│── ai-models/              # Machine Learning Models
+│
+│── ai-models/      # Machine Learning Models
 │   ├── anomaly_detection.ipynb
 │   ├── whale_activity_analysis.ipynb
-│── database/               # SQLite Database
+│
+│── database/       # SQLite Database
 │   ├── db.sqlite
 │   ├── schema.sql
+│
 │── README.md
 │── .gitignore
+```
 
-🛠 Installation & Setup
+---
 
-1️⃣ Clone the Repository
+## 🛠 Installation & Setup
 
-git clone https://github.com/your-repository/chronos-ai.git
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/ChronosAI-lab/Chronos-AI.git
 cd chronos-ai
+```
 
-2️⃣ Backend Setup
-
+### 2️⃣ Backend Setup
+```sh
 cd backend
 npm install
 node server.js
+```
 
-3️⃣ Frontend Setup
-
+### 3️⃣ Frontend Setup
+```sh
 cd frontend
 npm install
 npm run dev
+```
 
-4️⃣ Train AI Model
-
+### 4️⃣ Train AI Model
+```sh
 cd ai-models
 python anomaly_detection.py
+```
 
-🔗 API Endpoints
+---
 
-Endpoint
+## 🔗 API Endpoints
 
-Method
+| Endpoint            | Method | Description                      |
+|---------------------|--------|----------------------------------|
+| `/api/anomaly`      | GET    | Get detected anomalies          |
+| `/api/whale`       | GET    | Get whale transactions          |
+| `/api/transactions` | GET    | Fetch latest Solana transactions |
 
-Description
+---
 
-/api/anomaly
+## 📊 Technologies Used
 
-GET
+🖥 **Frontend:** Next.js (React + TypeScript)  
+🚀 **Backend:** Node.js (Express.js)  
+🗄 **Database:** SQLite  
+🤖 **AI Models:** Python (Scikit-learn, TensorFlow)  
+🔗 **API:** Solana Blockchain Scanner  
 
-Get detected anomalies
+---
 
-/api/whale
+## 📌 How It Works
 
-GET
+✅ **Solana API Fetching** - Retrieves real-time transaction data.  
+✅ **Whale Detection** - Filters large transactions over 50,000 SOL.  
+✅ **Anomaly Detection** - Uses AI to identify unusual transaction patterns.  
+✅ **Frontend Dashboard** - Displays insights with charts and lists.  
 
-Get whale transactions
+---
 
-/api/transactions
+## ⚡ Usage Guide
 
-GET
+1️⃣ **Start the backend server:**  
+```sh
+node server.js
+```
 
-Fetch latest Solana transactions
+2️⃣ **Start the frontend:**  
+```sh
+npm run dev
+```
 
-📊 Technologies Used
+3️⃣ **Access the dashboard:**  
+🔗 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Frontend: Next.js (React + TypeScript)
+---
 
-Backend: Node.js (Express.js)
+## 📜 License
 
-Database: SQLite
+This project is licensed under the **MIT License** 📄
 
-AI Models: Python (Scikit-learn, TensorFlow)
+---
 
-API: Solana Blockchain Scanner
+## 🚀 Chronos AI - Your Solana Monitoring Solution! 🌍
 
-📌 How It Works
-
-Solana API Fetching - Retrieves real-time transaction data.
-
-Whale Detection - Filters large transactions over 50,000 SOL.
-
-Anomaly Detection - Uses AI to identify unusual transaction patterns.
-
-Frontend Dashboard - Displays insights with charts and lists.
-
-⚡ Usage Guide
-
-Start the backend server (node server.js).
-
-Start the frontend (npm run dev).
-
-Access the dashboard at http://localhost:3000.
-
-📜 License
-
-This project is licensed under the MIT License.
-
-🚀 Chronos AI - Your Solana Monitoring Solution!
