@@ -1,6 +1,6 @@
-# Chronos AI - Solana Whale & Anomaly Tracker
+# Bonk Tracer - Solana Whale & Anomaly Tracker
 
-Chronos AI is an advanced monitoring system designed to track whale activity and detect transaction anomalies in the Solana blockchain. It leverages AI models to analyze patterns and provide real-time insights into blockchain transactions.
+Bonk Tracer is an advanced monitoring system designed to track whale activity and detect transaction anomalies in the Solana blockchain. It leverages AI models to analyze patterns and provide real-time insights into blockchain transactions.
 
 ---
 
@@ -18,7 +18,7 @@ Chronos AI is an advanced monitoring system designed to track whale activity and
 ## Folder Structure
 
 ```
-chronos-ai/
+bonk-tracer/
 │── backend/        # Express.js API Server
 │   ├── controllers/
 │   ├── routes/
@@ -53,8 +53,8 @@ chronos-ai/
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/ChronosAI-lab/Chronos-AI.git
-cd chronos-ai
+git clone https://github.com/BonkTracer/bonk-tracer.git
+cd bonk-tracer
 ```
 
 ### 2️⃣ Backend Setup
@@ -125,4 +125,4 @@ npm run dev
 
 ---
 
-## Chronos AI - Your Solana Monitoring Solution!
+## Bonk Tracer - Your Solana Monitoring Solution!
